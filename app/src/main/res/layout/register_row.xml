@@ -2,7 +2,7 @@
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:weightSum="10"
     android:orientation="horizontal">
 
@@ -12,6 +12,7 @@
         android:layout_weight="1.5"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/CURegisterBranchName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Branch"
@@ -20,6 +21,7 @@
 
         </TextView>
         <TextView
+            android:id="@+id/CURegisterReqNo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Req No"
@@ -34,6 +36,7 @@
         android:layout_weight="1.5"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/CURegisterDate"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Date"
@@ -42,6 +45,7 @@
 
         </TextView>
         <TextView
+            android:id="@+id/CURegisterCompany"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Company"
@@ -50,12 +54,14 @@
         </TextView>
     </LinearLayout>
     <LinearLayout
+
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="2.4"
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/CURegisterInvoiceName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -63,6 +69,7 @@
 
         </TextView>
         <TextView
+            android:id="@+id/CURegisterProjectName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Project Name"
@@ -77,6 +84,7 @@
         android:layout_weight="2.6"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/CURegisterRegisterTo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Requester TO"
@@ -85,6 +93,7 @@
 
         </TextView>
         <TextView
+            android:id="@+id/CURegisterRegisterName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Requester Name"
@@ -97,13 +106,16 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="1.2"
+        android:layout_gravity="center"
         android:orientation="vertical">
         <TextView
+            android:id="@+id/CURegisterStatus"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Status"
-            android:layout_gravity="center"
+
+
             >
 
         </TextView>
@@ -112,7 +124,7 @@
     <LinearLayout
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_weight="0.8"
         android:orientation="vertical">
 
 

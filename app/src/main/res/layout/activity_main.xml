@@ -78,7 +78,7 @@
                     />
 
                 <Spinner
-                    android:id="@+id/branch_spinner"
+                    android:id="@+id/CURequest_branch_spinner"
                     android:layout_width="0dp"
                     android:layout_height="match_parent"
                     android:layout_marginHorizontal="3dp"
@@ -446,6 +446,7 @@
 
                 >
                 <Button
+                    android:id="@+id/CURequestSave"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:backgroundTint="#FF90A4AE"
